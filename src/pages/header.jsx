@@ -3,6 +3,11 @@ import { Link } from "react-router-dom";
 import "../assets/style/Header.scss";
 import artisans from "../datas.json";
 
+import { FaRegBuilding } from "react-icons/fa";
+import { GrServices } from "react-icons/gr";
+import { MdOutlinePrecisionManufacturing } from "react-icons/md";
+import { FaBowlFood } from "react-icons/fa6";
+
 const Header = () => {
 
     let [recherche, setRecherche] = useState('');
@@ -31,10 +36,10 @@ const Header = () => {
           </button>
           <div className="collapse navbar-collapse headBar" id="navbarSupportedContent">
             <div className="navigation">
-              <Link className="nav-link" aria-current="page" to="/batiment">Bâtiment</Link>                 
-              <Link className="nav-link " aria-current="page" to="/service">Services</Link>      
-              <Link className="nav-link " aria-current="page" to="/fabrication">Fabrication</Link>
-              <Link className="nav-link " aria-current="page" to="/alimentation">Alimentation</Link>
+              <Link className="nav-link" aria-current="page" to="/batiment"><FaRegBuilding  size={20}/> Bâtiment</Link>                 
+              <Link className="nav-link " aria-current="page" to="/service"><GrServices size={20}/> Services</Link>      
+              <Link className="nav-link " aria-current="page" to="/fabrication"><MdOutlinePrecisionManufacturing size={20}/> Fabrication</Link>
+              <Link className="nav-link " aria-current="page" to="/alimentation"><FaBowlFood size={20}/> Alimentation</Link>
             </div>
             <form className="d-flex" role="search">
               <input className="form-control me-2" type="search" placeholder="Rechercher" aria-label="Search" onChange={handleRecherche}/>

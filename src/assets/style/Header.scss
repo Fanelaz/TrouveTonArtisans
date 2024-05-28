@@ -20,7 +20,6 @@
 
 .searchContainer{
     background-color: white;
-    border: 0.2rem solid #00497c;
     margin-top: 2rem;
     margin-bottom: 2rem;
     padding-bottom: 2rem;
@@ -36,15 +35,15 @@ section h2{
 }
 
 .searchButton{
-    width: 6rem;
-    border: 2px solid #cd2c2e;
+    width: 10rem;
+    border: 2px solid #82b864;
     border-radius: 10px;
     background-color: #384050;
     color: #f1f8fc;
 }
 
 .searchButton:hover{
-    border: 2px solid #82b864;
+    border: 2px solid #cd2c2e;
 }
 
 nav{

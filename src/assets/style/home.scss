@@ -1,0 +1,69 @@
+.card{
+    margin-top: 2rem;
+}
+
+.topCard:nth-child(5){
+    margin-bottom: 2rem;
+}
+
+.card-header{
+    text-align: center;
+    background-color: #0074c7;
+    color: #f1f8fc;
+}
+
+.card-body{
+    background-color: #f1f8fc;
+}
+
+#tuto {
+    margin-top: 2rem;
+}
+
+.card-tuto{
+    margin-top: 1rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #cd2c2e;
+}
+
+
+.contArtisans{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: white;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+
+}
+
+span{
+    color: #cd2c2e;
+}
+
+
+@media (min-width: 768px){
+
+    .topCard{
+        width: 30rem;
+    }
+    
+    .topArtisans{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}

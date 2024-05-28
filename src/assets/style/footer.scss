@@ -1,0 +1,31 @@
+.footer, .legal, .address{
+    display: flex;
+    flex-direction: column;
+}
+
+.legal{
+    border-bottom: #00497c solid 0.2rem;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.address{
+    margin-top: 1rem;
+}
+
+footer{
+    border-top: 0.2rem solid #00497c;
+    background-color: #f1f8fc;
+}
+
+@media (min-width: 768px){
+    .footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .legal{
+        border: none;
+    }
+}

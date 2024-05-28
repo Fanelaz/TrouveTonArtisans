@@ -1,0 +1,65 @@
+.page{
+    background-color: white;
+    border: 0.2rem solid #00497c;
+    margin: 2rem auto;
+
+}
+
+.return{
+    margin-bottom: 1rem;
+    width: 10rem;
+    height: 3rem;
+    border: #0074c7 solid 0.1rem;
+}
+
+
+.about{
+    margin-bottom: 2rem;
+}
+
+.inputContact{
+    border: 2px solid #0074c7;
+    margin-bottom: 1rem;
+    padding-left: 0.5rem;
+}
+
+textarea{
+    border: 2px solid #0074c7;
+    padding-left: 0.5rem;
+}
+
+.btn{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #00497c;
+    border-radius: 0px;
+}
+
+.btn:hover{
+    border: 1px solid #00497c;
+    background-color: #0074c7;
+    color: #f1f8fc;
+}
+
+.required{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 768px){
+    .about{
+        width: 30rem;
+    }
+
+    .aboutDiv{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .inputContact{
+        width: 30rem;
+        height: 3rem;
+    }
+}
